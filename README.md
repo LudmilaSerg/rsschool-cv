@@ -1,1 +1,0 @@
-https://LudmilaSerg.github.io/rsschool-cv/cv
