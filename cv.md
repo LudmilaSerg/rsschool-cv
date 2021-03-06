@@ -23,3 +23,14 @@ I'm an enthusiastic student of The Rolling Scopes School, who likes to take init
 
 I have no experience in developing. I finished HTML/CSS/Jquery course. I have some training projects. You can see the code using the links above.
 
+### Education: 
+* Berolussian-Russian University (2000-2005);
+  * Qualification: Electrical Engineer;
+  * Specialization: Robots;
+* A1qa software testing courses;
+* HTML/CSS/Jquery;
+* SEO courses;
+
+### English:
+* Streamline Language School (level B1);
+
