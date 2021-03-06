@@ -1,0 +1,236 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.avatar {
+    min-width: 400px;
+    background-color: #232C39;
+}
+
+.avatar__foto {
+    text-align: center;
+    padding: 30px 57px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.avatar__info {
+    min-width: 800px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.info-name {
+    font-size: 40px;
+    color: #000;
+}
+
+.info-position {
+    font-size: 30px;
+    color: #000;
+}
+
+.wrap__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-about__contact {
+    position: relative;
+}
+
+.left-about__contact::after {
+    content: '';
+    width: 350px;
+    display: block;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -30px;
+}
+
+.left-about {
+    min-width: 400px;
+    background-color: #232C39;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 15px;
+}
+
+.contact-title,
+.skills-title,
+.code-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.contact-list {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.contact__list-phone {
+    position: relative;
+}
+
+.contact__list-phone::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/icons/phone.svg");
+    left: -40px;
+    top: -2px;
+}
+
+.contact__list-email {
+    position: relative;
+}
+
+.contact__list-email::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/icons/letter-icon.svg");
+    left: -40px;
+    top: -2px;
+}
+
+.contact__list-geo {
+    position: relative;
+}
+
+.contact__list-geo::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/icons/geo-icon.svg");
+    left: -40px;
+    top: -2px;
+}
+
+.left-about__code {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-about__code::after {
+    content: '';
+    width: 350px;
+    display: block;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -20px;
+}
+
+.code-link {
+    position: relative;
+    left: 40px;
+}
+
+.code-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/icons/GitHub-icon.png");
+    left: -40px;
+    top: -2px;
+}
+
+.left-about__skills {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-item {
+    position: relative;
+}
+
+.skills-item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/icons/angle-icon.png");
+    left: -40px;
+    top: -2px;
+}
+
+.right-about {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.right-about p {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.aboutme-title,
+.experience-title,
+.education-title,
+.english-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.education-list {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+.education-list li ul {
+    padding-top: 10px;
+    list-style-type: circle;
+}
