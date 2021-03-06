@@ -6,74 +6,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="avatar">
-                <img src="img/myphoto.jpg" alt="my_photo">
-            </div>
-            <div class="info">
-                <h1 class="name">Ludmila Bondareva</h1>
-                <h2 class="position">Front-end Developer</h2>
+            <div class="header__inner">
+                <div class="avatar">
+                    <div class="avatar__foto">
+                        <img src="img/avaphoto.jpg" alt="my_photo">
+                    </div>
+                </div>
+                <div class="avatar__info">
+                    <h1 class="info-name">LUDMILA BONDAREVA</h1>
+                    <h2 class="info-position">FRONT-END DEVELOPER</h2>
+                </div>
             </div>
         </div>
     </header>
-    <section class="left-about">
-        <div class="left-about__contact-me">
-            <h3 class="contact-me">CONTACT ME</h3>
-            <ul>
-                <li><a href="tel:+375293607071"></a>+37529-360-70-71</li>
-                <li><a href="mailto:mikoelectrik@gmail.com"></a>mikoelectrik@gmail.com</li>
-                <li><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA"></a>Belarus, Minsk</li>
-            </ul>
+    <div class="wrap">
+        <div class="container">
+            <div class="wrap__inner">
+                <section class="left-about">
+                    <div class="left-about__contact">
+                        <h3 class="contact-title">CONTACT ME</h3>
+                        <ul class="contact-list">
+                            <li><a href="tel:+375293607071" class="contact__list-phone">+37529-360-70-71</a></li>
+                            <li><a href="mailto:mikoelectrik@gmail.com"
+                                    class="contact__list-email">mikoelectrik@gmail.com</a></li>
+                            <li><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA"
+                                    class="contact__list-geo">Belarus,
+                                    Minsk</a></li>
+                        </ul>
+                    </div>
+                    <div class="left-about__code">
+                        <h3 class="code-title">Code Example:</h3>
+                        <a href="https://github.com/LudmilaSerg" class="code-link">github.com/LudmilaSerg</a>
+                    </div>
+                    <div class="left-about__skills">
+                        <h3 class="skills-title">SKILLS</h3>
+                        <ul class="skills-list">
+                            <li class="skills-item">HTML/CSS;</li>
+                            <li class="skills-item">Git, Gulp, SASS, SCSS;</li>
+                            <li class="skills-item">Wordpress, Joomla, Bitrix (webmaster);</li>
+                            <li class="skills-item">Adobe Photoshop, Figma, Avocode, WS Code, PhpStorm;</li>
+                            <li class="skills-item">English B1 level (certificate Streamline school);</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="right-about">
+                    <div class="right-about__aboutme">
+                        <h3 class="aboutme-title">ABOUT ME:</h3>
+                        <p class="aboutme-text">I'm an enthusiastic student of The Rolling Scopes School, who likes
+                            to
+                            take
+                            initiative and seek out new challenges. I'm motivated, result-focused and seeking a
+                            successful
+                            team-oriented
+                            company with opportunity to grow. I have a small experience with HTML and CSS. I enjoy
+                            learming
+                            something
+                            new.</p>
+                    </div>
+                    <div class="right-about__experience">
+                        <h3 class="experience-title">EXPERIENCE:</h3>
+                        <p class="experience-text">I have no experience in developing. I finished HTML/CSS/Jquery
+                            course. I
+                            have
+                            some
+                            training projects. You can see the code using the links above.</p>
+                    </div>
+                    <div class="right-about__education">
+                        <h3 class="education-title">EDUCATION:</h3>
+                        <ul class="education-list">
+                            <li class="education-item">Berolussian-Russian University (2000-2005);
+                                <ul class="education-list">
+                                    <li class="education-item">Qualification: Electrical Engineer;</li>
+                                    <li class="education-item">Specialization: Robots;</li>
+                                </ul>
+                            </li>
+                            <li class="education-item">A1qa software testing courses;</li>
+                            <li class="education-item">HTML/CSS/Jquery;</li>
+                            <li class="education-item">SEO courses;</li>
+                        </ul>
+                    </div>
+                    <div class="right-about__english">
+                        <h3 class="english-title">ENGLISH:</h3>
+                        <p class="english-text">Streamline Language School (level B1);</p>
+                    </div>
+                </section>
+            </div>
         </div>
-        <div class="left-about__skills">
-            <h3 class="skills">SKILLS</h3>
-            <ul>
-                <li>HTML/CSS;</li>
-                <li>Git, Gulp, SASS, SCSS;</li>
-                <li>Wordpress, Joomla, Bitrix (webmaster);</li>
-                <li>Adobe Photoshop, Figma, Avocode, WS Code, PhpStorm;</li>
-                <li>English B1 level (certificate Streamline school);</li>
-            </ul>
-        </div>
-    </section>
-    <section class="right-about">
-        <h3 class="aboutme-head">About me:</h3>
-        <p class="right-about__aboutme">I'm an enthusiastic student of The Rolling Scopes School, who likes to take
-            initiative and seek out new challenges. I'm motivated, result-focused and seeking a successful team-oriented
-            company with opportunity to grow. I have a small experience with HTML and CSS. I enjoy learming something
-            new.</p>
-        <div class="right-about__code">
-            <h3 class="code">Code Example:</h3>
-            <a href="https://github.com/LudmilaSerg">github.com/LudmilaSerg</a>
-        </div>
-        <div class="right-about__experience">
-            <h3 class="experience-head">Experience:</h3>
-            <p class="experience">I have no experience in developing. I finished HTML/CSS/Jquery course. I have some
-                training projects. You can see the code using the links above.</p>
-        </div>
-        <div class="right-about__education">
-            <h3 class="education-head">Education:</h3>
-            <ul>
-                <li>Berolussian-Russian University (2000-2005);
-                    <ul>
-                        <li>Qualification: Electrical Engineer;</li>
-                        <li>Specialization: Robots;</li>
-                    </ul>
-                </li>
-                <li>A1qa software testing courses;</li>
-                <li>HTML/CSS/Jquery;</li>
-                <li>SEO courses;</li>
-            </ul>
-        </div>
-        <div class="right-about__english">
-            <h3 class="english">English:</h3>
-            <p class="about-english">Streamline Language School (level B1);</p>
-        </div>
-    </section>
+    </div>
 </body>
 
 </html>
