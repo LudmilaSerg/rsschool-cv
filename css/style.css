@@ -31,7 +31,8 @@ body {
     display: flex;
 }
 
-.avatar {
+.avatar,
+.footer__left {
     min-width: 400px;
     background-color: #232C39;
 }
@@ -233,4 +234,29 @@ body {
 .education-list li ul {
     padding-top: 10px;
     list-style-type: circle;
+}
+
+.footer__inner {
+    display: flex;
+}
+
+.footer__info {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #232C39;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__logo img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__author {
+    font-size: 16px;
 }
