@@ -26,3 +26,18 @@ Given a year, return the century it is in.
   return Math.floor((year -1) / 100) + 1;
   }
   ```
+  ### EXPERIENCE:
+  ***
+  I have no experience in developing. I finished HTML/CSS/Jquery course. I have some training projects. You can see the code using the links above.
+  ***
+  ### EDUCATION:
+  ***
+  * Berolussian-Russian University (2000-2005);
+  * Qualification: Electrical Engineer;
+  * Specialization: Robots;
+  * A1qa software testing courses;
+  * HTML/CSS/Jquery;
+  * SEO courses;
+  ***
+  ### ENGLISH:
+  Streamline Language School (level B1);
