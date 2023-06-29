@@ -9,7 +9,7 @@
 
  I’m an enthusiastic student of The Rolling Scopes School, who likes to take initiative and seek out new challenges. I’m motivated, result-focused and seeking a successful team-oriented company with opportunity to grow. I have little experience with HTML and CSS. I enjoy learming something new.
  
-### SKILLS
+### SKILLS:
 * HTML/CSS;
 * Git, Gulp, SASS, SCSS;
 * Wordpress, Joomla, Bitrix (webmaster);
@@ -32,9 +32,9 @@ Given a year, return the century it is in.
   }
   ```
 ### EXPERIENCE:
-  ***
+  
   I have no experience in developing. I finished HTML/CSS/Jquery course. I have some training projects. You can see the code using the links above.
-  ***
+
 ### EDUCATION:
   
   * Berolussian-Russian University (2000-2005);
@@ -44,5 +44,6 @@ Given a year, return the century it is in.
   * HTML/CSS/Jquery;
   * SEO courses;
 
-  ### ENGLISH:
-  Streamline Language School (level B1);
+### ENGLISH:
+
+Streamline Language School (level B1);
