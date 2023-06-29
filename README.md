@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ludmilaserg.github.io/rsschool-cv/cv
