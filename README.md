@@ -1,1 +1,1 @@
-https://LudmilaSerg.github.io/rsschool-cv/
+https://ludmilaserg.github.io/rsschool-cv/
