@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +21,14 @@
 <body>
     <main class="cv">
         <div class="container">
+            <nav >
+                <ul class="site-navigation">
+                <li class="site-navigation__item"><a class="site-navigation__link"  href="#aboutMe">ABOUT ME</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link"  href="#mySkills">SKILLS</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link"  href="#codeExample">CODE EXAMPLE</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link"  href="#myProjects">MY PROJECTS</a></li>
+            </ul>
+            </nav>
             <header class="header">
                 <div class="cv_left-photo">
                     <img src="img/ava.jpg" alt="avatar" class="round">
@@ -64,7 +73,7 @@
                 </div>
                 <div class="about_right">
                     <div class="cv_right">
-                        <h2 class="cv_right-aboutme">ABOUT ME</h2>
+                        <h2 class="cv_right-aboutme" id="aboutMe">ABOUT ME</h2>
                         <div class="cv_right-about">
                             I'm an enthusiastic student of The Rolling Scopes School, who likes to take initiative and
                             seek out new challenges. I'm motivated, result-focused and seeking a successful
@@ -72,7 +81,7 @@
                             I enjoy learming something new.
                         </div>
                         <div class="cv_right-skills">
-                            <h2 class="skills">SKILLS</h2>
+                            <h2 class="skills" id="mySkills">SKILLS</h2>
                             <ul>
                                 <li><a href="#">HTML/CSS;</a></li>
                                 <li><a href="#">Git, Gulp, SASS, SCSS;</a></li>
@@ -82,7 +91,7 @@
                             </ul>
                         </div>
                         <div class="cv_right-code">
-                            <h2 class="code">CODE EXAMPLE</h2>
+                            <h2 class="code" id="codeExample">CODE EXAMPLE</h2>
                             <pre>
     <span>Given a year, return the century it is in.</span>
         <code>
@@ -100,7 +109,7 @@
                         </div>
                     </div>
                     <div class="portfolio">
-                        <h2 class="portfolio-title">MY PROJECTS</h2>
+                        <h2 class="portfolio-title" id="myProjects">MY PROJECTS</h2>
                         <div class="project-images">
                             <p>Internet-shop "Moderno"</p>
                             <a href="https://github.com/LudmilaSerg/moderno"><img src="img/moderno.jpg"
